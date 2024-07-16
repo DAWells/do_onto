@@ -48,3 +48,9 @@ Generate graph embeddings and louvain clusters for cancer types.
 
 ## Plot
 View embedding structure in 2D using t-SNE coloured by louvain cluster.
+
+# cancer rates
+https://doi.org/10.3322/caac.21660
+
+https://doi.org/10.3322/caac.21834
+
