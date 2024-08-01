@@ -14,11 +14,11 @@ Spin up a container using that image, setting the ports
 and log-in details. See the neo4j [docs](https://neo4j.com/docs/operations-manual/current/docker/introduction/)
 for more info.
 
-docker run ^
-    -it --rm ^
-    --publish=7474:7474 --publish=7687:7687 ^
-    --env NEO4J_AUTH=neo4j/123456789 ^
-    --env NEO4J_PLUGINS='["graph-data-science","apoc","n10s"]' ^
+docker run \
+    -it --rm \
+    --publish=7474:7474 --publish=7687:7687 \
+    --env NEO4J_AUTH=neo4j/123456789 \
+    --env NEO4J_PLUGINS='["graph-data-science","apoc","n10s"]' \
     neo4j:5.17.0
 
 
